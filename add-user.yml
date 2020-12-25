@@ -1,0 +1,8 @@
+---
+- name: adding a user
+  hosts: all
+  tasks: 
+    - name: adding samar 
+      user: 
+        name: samar
+        state: persent
